@@ -1,0 +1,23 @@
+{
+  "name": "ens-analize",
+  "version": "1.0.0",
+  "description": "tools to analize ens",
+  "main": "index.ts",
+  "author": "Johnny Jumper ",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "watch": "ts-node-dev --respawn -- src/index.ts",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "js-sha3": "^0.8.0",
+    "typescript": "^4.1.3",
+    "web3": "^1.3.4",
+    "web3-eth-contract": "^1.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "ts-node-dev": "^1.1.1"
+  }
+}
